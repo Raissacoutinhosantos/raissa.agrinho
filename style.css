@@ -1,30 +1,50 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0e68c; /* cor suave e acolhedora */
+    background-color: #e6ffe6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
     text-align: center;
-    padding: 50px;
+    padding: 2rem 1rem;
 }
 
-h1 {
-    color: #2e8b57; /* verde que remete à natureza */
+main {
+    padding: 2rem;
+    text-align: center;
 }
 
-p {
-    font-size: 1.2em;
-    margin: 20px 0;
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
 }
 
 button {
-    background-color: #ff7f50; /* cor vibrante */
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 15px 30px;
-    font-size: 1em;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ff6347; /* tom mais escuro ao passar o mouse */
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
